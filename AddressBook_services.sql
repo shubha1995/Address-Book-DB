@@ -38,3 +38,7 @@ WHERE fname = 'chandan';
 #uc6
 SELECT * FROM Address_book
 where city = 'dharmanagar' or state = 'tripura';
+
+#uc7
+SELECT COUNT(city or state)
+FROM Address_book;
