@@ -42,3 +42,9 @@ where city = 'dharmanagar' or state = 'tripura';
 #uc7
 SELECT COUNT(city or state)
 FROM Address_book;
+
+#uc8
+select fname,
+    city
+  from Address_book
+  order by city asc;
