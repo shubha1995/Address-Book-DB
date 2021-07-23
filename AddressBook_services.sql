@@ -24,3 +24,9 @@ insert into Address_book(fname, lname, city, state, zip, phone, email) values
 ('Chandan', 'Tiwary', 'kolkata', 'Bihar', 794550, 81450945877, 'chandantiwary@gmail.com' ),
 ('Arnab', 'Nath', 'chennai', 'TamilNaru', 7125487, 81494545879, 'arnabnath@gmail.com' );
 
+#uc4
+UPDATE Address_book
+SET city = 'Bangalore',
+state = 'Karnataka',
+zip = 852369
+WHERE fname = 'Chandan';
