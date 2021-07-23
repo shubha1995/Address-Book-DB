@@ -34,3 +34,7 @@ WHERE fname = 'Chandan';
 #uc5
 DELETE FROM  Address_book
 WHERE fname = 'chandan';
+
+#uc6
+SELECT * FROM Address_book
+where city = 'dharmanagar' or state = 'tripura';
