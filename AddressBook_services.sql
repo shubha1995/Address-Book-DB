@@ -16,3 +16,11 @@ create table Address_book(
      primary key (id)
 );
 select * from address_book;
+
+#uc3
+insert into Address_book(fname, lname, city, state, zip, phone, email) values
+('Shubha', 'Bhaumik', 'Dharmanagar', 'Tripura', 799250, 8131909497, 'ssbhaumikdmr@gmail.com' ),
+('Rahul', 'pal', 'Agartalla', 'WestBengal', 845700, 8138975257, 'rahulpal@gmail.com' ),
+('Chandan', 'Tiwary', 'kolkata', 'Bihar', 794550, 81450945877, 'chandantiwary@gmail.com' ),
+('Arnab', 'Nath', 'chennai', 'TamilNaru', 7125487, 81494545879, 'arnabnath@gmail.com' );
+
