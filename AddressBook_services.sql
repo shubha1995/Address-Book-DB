@@ -48,3 +48,10 @@ select fname,
     city
   from Address_book
   order by city asc;
+  
+#uc9
+Alter table Address_book add type varchar(15) after lname;
+update  Address_book set type='Family' where fname ='Shubha';
+update  Address_book set type='Friends' where fname  ='Arnab';
+update  Address_book set type='Friends' where fname  ='Chandan';
+update  Address_book set type='Profession' where fname  ='Rahul';
