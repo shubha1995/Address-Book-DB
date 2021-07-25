@@ -44,10 +44,10 @@ SELECT COUNT(city or state)
 FROM Address_book;
 
 #uc8
-select fname,
-    city
+select fname
   from Address_book
-  order by city asc;
+  where city = 'Karnataka'
+  order by fname asc;
   
 #uc9
 Alter table Address_book add type varchar(15) after lname;
@@ -59,3 +59,13 @@ update  Address_book set type='Profession' where fname  ='Rahul';
 #uc10
 SELECT COUNT(type) AS Number_Of_Contact_Person 
 FROM Address_book;
+
+#uc11
+
+insert into Address_book(fname, lname, city, state, zip, phone, email) values
+('Shubha', 'Bhaumik',  'Dharmanagar', 'Tripura', 799250, 8131909497, 'ssbhaumikdmr@gmail.com' );
+update  Address_book set type='Friends' where id =5;
+
+
+#drop database AddressBook_services;
+
